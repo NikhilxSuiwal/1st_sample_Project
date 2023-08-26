@@ -1,0 +1,310 @@
+/* navigation bar  */
+#navbar{
+    flex-direction: column;
+}
+
+/* home section  */
+#home{
+   height: 710px;
+   padding: 20px 60px;
+}
+#home::before{
+   height: 830px;
+}
+.cafes{
+    font-size: 10px;
+}
+.title-section .black_text {
+    font-size: 27px;
+}
+.title-section .stroke_text {
+    font-size: 86px;
+}
+.title-section .yellow_italic_text{
+    font-size: 65px;
+}
+.text-section p{
+    font-size: 10px;
+}
+/* services section  */
+#services{
+    flex-direction: column;
+}
+#services .box{
+
+}
+
+/* clients section  */
+.clients{
+    flex-wrap: wrap;
+}
+
+/* enquiry section  */
+
+
+/* footer section  */
+
+/* utility classes */
+.h-primary {
+    font-size: 40px;
+}
+.btn{
+    margin: 30px 150px;
+}
+
+
+/* media queries upto 480px */
+@media screen and (max-width:480px){
+    /* navigation section */
+    #logo img {
+        cursor: pointer;
+        width: 50px;
+        margin: 50px 45px;
+        border-radius: 50%;
+        padding-top: 12px;
+    }
+    #navbar ul{
+        padding-bottom: 10px;
+    }
+    #navbar ul li a{
+        font-size: 0.6rem;
+        padding: 8px 8px;
+    }
+    #navbar::before{
+        height: 79%;
+    }
+    /* home section  */
+    #home{
+        height: 810px;
+        padding: 0px 18px;
+     }
+     #home::before{
+        filter: invert(30%);
+        height: 835px;
+     }
+     .cafes{
+        font-size: 18px;
+        margin-top: 175px;
+        font-weight: bolder;
+        padding: 15px 10px;
+     }
+    .title-section .black_text {
+        font-size: 30px;
+        padding-top: 15px;
+    }
+    .title-section .stroke_text {
+        -webkit-text-stroke-color: aliceblue;
+        font-size: 67px;
+        padding-top: 15px;
+    }
+    .title-section .yellow_italic_text{
+        font-size: 51px;
+        padding-top: 15px;
+    }
+    .text-section p{
+        font-size: 18px;
+        padding-top: 20px;
+    }
+
+    /* client section  */
+    .clients{
+        flex-wrap: wrap;
+    }
+    .clients img{
+        width: 65px;
+        height: auto;
+        padding: 2px 8px;
+    }
+    .client-item{
+        padding-bottom: 0rem;
+    }
+    .tabs ul{
+        margin-right: 2px;
+        padding: 23px 0px 15px 0px;
+    }
+    .tabs ul li:nth-child(1){
+        padding-left: 0px;
+    }
+     .tabs ul li{
+
+         font-size: 1rem;
+     }
+     #contact-box{
+        align-items: flex-end;
+        margin-right: 50px;
+        padding-bottom: 10px;
+     }
+     #contact-box form{
+        font-size: 20px;
+        width: 60%;
+        margin-bottom: 35px;
+     }
+     #contact-box::before{
+        height: 87%;
+        width: 67%;
+        margin-right: -36px;
+        margin-bottom: 25px;
+        border-radius: 35px;
+     }
+     /* services section  */
+     #services .box{
+        font-size: 14px;
+        padding: 3px;
+        margin: 4px 0;
+     }
+     #services .box img{
+        width: 200px;
+     }
+    /* utility classes */
+    .btn {
+        font-size: 1.4rem;
+        margin: 100px 110px;
+    }
+
+}
+
+@media screen and (max-width:400px){ 
+    /* navigation section */
+    #logo img {
+        cursor: pointer;
+        width: 50px;
+        margin: 50px 45px;
+        border-radius: 50%;
+        padding-top: 12px;
+    }
+    #navbar ul{
+        padding-bottom: 10px;
+    }
+    #navbar ul li a{
+        font-size: 0.6rem;
+        padding: 8px 8px;
+    }
+    #navbar::before{
+        height: 79%;
+    }
+    /* #navbar ul li a{
+        font-size: 0.4rem;
+        padding: 10px 8px;
+    }
+    #navbar::before{
+        height: 75%;
+    }
+    #home{
+        height: 230px;
+    }   
+    #home::before{
+        height: 300px;
+    }
+    #logo img {
+        cursor: pointer;
+        width: 50px;
+        margin: 50px 45px;
+        border-radius: 50%;
+        padding-top: 12px;
+    } */
+    #home{
+        height: 660px;
+        padding: 0px 18px;
+     }
+     #home::before{
+        filter: invert(30%);
+        height: 670px;
+     }
+     .cafes{
+        font-size: 18px;
+        margin-top: 160px;
+        font-weight: bolder;
+        padding: 15px 10px;
+     }
+    .title-section .black_text {
+        font-size: 25px;
+        padding-top: 15px;
+    }
+    .title-section .stroke_text {
+        -webkit-text-stroke-color: aliceblue;
+        font-size: 60px;
+        padding-top: 15px;
+    }
+    .title-section .yellow_italic_text{
+        font-size: 47px;
+        padding-top: 15px;
+    }
+    .text-section p{
+        font-size: 18px;
+        padding-top: 5px;
+    }
+
+    /* .cafes{
+        margin-top: 20px;
+        padding: 10px 5px;
+    } 
+    .title-section .black_text {
+        font-size: 10px;
+    }
+    .title-section .stroke_text {
+        font-size: 30px;
+    }
+    .title-section .yellow_italic_text{
+        font-size: 22.8px;
+    } 
+    .title-section p{
+        font-size: 7px;
+    } 
+     .tabs ul li{
+         font-size: 0.9rem;
+     } */
+     .btn {
+        margin: 50px 105px;
+        font-size: 0.9rem;
+    }
+     .h-primary{
+        padding: 2px;
+        margin-top: -15px;
+     }
+     .tabs ul {
+        margin-right: 4px;
+    }
+     .tabs ul li{
+        font-size: 0.9rem;
+    }
+}
+@media screen and (max-width:360px){ 
+    #home{
+        height: 710px;
+        padding: 0px 18px;
+     }
+     #home::before{
+        filter: invert(30%);
+        height: 741px;
+     }
+     .cafes{
+        font-size: 18px;
+        margin-top: 180px;
+        font-weight: bolder;
+        padding: 15px 10px;
+     }
+    .title-section .black_text {
+        font-size: 30px;
+        padding-top: 15px;
+    }
+    .title-section .stroke_text {
+        -webkit-text-stroke-color: aliceblue;
+        font-size: 60px;
+        padding-top: 15px;
+    }
+    .title-section .yellow_italic_text{
+        font-size: 45px;
+        padding-top: 15px;
+    }
+    .text-section p{
+        font-size: 18px;
+        padding-top: 20px;
+    }   
+     .tabs ul li{
+         font-size: 0.8rem;
+     }
+     .btn {
+        margin: 50px 100px;
+        font-size: 1rem;
+    }
+}
