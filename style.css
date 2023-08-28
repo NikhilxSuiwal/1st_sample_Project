@@ -3,11 +3,14 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behaviour: smooth;
+}
 
 /* Navigation Bar */
 #navbar {
     font-family: 'Nunito', sans-serif;
-    position: relative;
+    position: sticky;
     top: 0;
     display: flex;
     align-items: center;
